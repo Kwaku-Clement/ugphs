@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583532441971",
+    "project_id": "tolerance-e521d",
+    "storage_bucket": "tolerance-e521d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583532441971:android:879854c43142fd218f5506",
+        "android_client_info": {
+          "package_name": "com.projectwork.tolerance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583532441971-00alrcv1ffhva97di2g9ebvqr5stv3r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ikKjrTtA57h4LH2cX0WidinIgizeKb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583532441971-00alrcv1ffhva97di2g9ebvqr5stv3r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

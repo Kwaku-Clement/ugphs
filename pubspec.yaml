@@ -1,0 +1,85 @@
+name: tolerance
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+  path_provider: ^2.0.5
+  multi_image_picker2: ^5.0.2
+  transparent_image: ^2.0.0
+  carousel_pro: ^1.0.0
+  fluttertoast: ^8.0.8
+
+  cloud_firestore: ^2.5.3
+  firebase_storage: ^10.0.5
+  firebase_messaging: ^10.0.8
+  firebase_auth: ^3.1.3
+  firebase_core: ^1.7.0
+  readmore: ^2.1.0
+
+  modal_progress_hud: ^0.1.3
+  flutter_icons: ^1.1.0
+  flutter_carousel_slider: ^1.0.8
+  file_picker: ^4.0.0
+  uuid: ^3.0.5
+  image_picker: ^0.8.4+2
+  
+  flutter_svg: ^0.23.0+1
+  flutter_pdfview: ^1.1.2
+  flutter_form_builder: ^6.0.1
+
+  #Google Icon
+  font_awesome_flutter: ^9.1.0
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # custom assets
+  assets:
+    - assets/images/
+
+
+  # custom fonts
+
+  fonts:
+    - family: Red Hat Display
+      fonts:
+        - asset: assets/fonts/RedHatDisplay-Regular.ttf
+        - asset: assets/fonts/RedHatDisplay-Italic.ttf
+          style: italic
+        - asset: assets/fonts/RedHatDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RedHatDisplay-Black.ttf
+          weight: 900
+        - asset: assets/fonts/RedHatDisplay-BlackItalic.ttf
+          style: italic
+          weight: 900
+        - asset: assets/fonts/RedHatDisplay-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/RedHatDisplay-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/RedHatDisplay-MediumItalic.ttf
+          style: italic
+          weight: 600
+    - family: BoxIcons
+      fonts:
+        - asset: assets/fonts/BoxIcons.ttf
